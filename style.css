@@ -60,3 +60,24 @@ a {
     background-repeat: no-repeat; 
     background-size: cover; 
 }
+
+.velkommen {
+    height: 100vh;
+    background-color: var(--sand);
+    display: flex;
+    flex-direction: row;
+
+}
+.velkommen-intro {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.velkommen-intro h2 {
+    font-size: 50px;
+}
+.velkommen-intro h3 {
+    font-size: 40px;
+}
