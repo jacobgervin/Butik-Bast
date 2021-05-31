@@ -45,3 +45,10 @@ a {
     padding-bottom: 10px;
 
 }
+
+.separator {
+    border-right: 2px solid var(--black);
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
