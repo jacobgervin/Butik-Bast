@@ -20,7 +20,6 @@ a {
     align-items: center;
     justify-content: center;
     align-content: center;
-    background-color: var(--hvid);
     position: fixed;
     width: 100vw;
 }
