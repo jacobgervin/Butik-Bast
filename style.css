@@ -1,0 +1,83 @@
+:root {
+    --hvid: #EFF0EF;
+    --sand:#D9CDB8; 
+    --sort: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: var(--sort);
+}
+
+#header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--hvid);
+    position: fixed;
+    width: 100vw;
+}
+
+.logo-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    align-self: center;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.separator {
+    border-right: 2px solid var(--black);
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url(baggrund.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.velkommen {
+    height: 100vh;
+    background-color: var(--sand);
+    display: flex;
+    flex-direction: row;
+
+}
+.velkommen-intro {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.velkommen-intro h2 {
+    font-size: 50px;
+}
+.velkommen-intro h3 {
+    font-size: 40px;
+}
