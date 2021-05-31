@@ -115,3 +115,38 @@ a {
 #more {
     display: none;
 }
+#tagbastmedhjem {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--sand);
+}
+
+#tagbastmedhjem h2 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.bastmedhjem-tekst {
+    width: 50vw;
+}
+.bastmedhjem-tekst p {
+    margin-left: 8vw;
+    margin-right: 5vw;
+    font-size: 25px;
+}
+.bastmedhjem-billede {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+.bastmedhjem-billede img {
+    width: 55%;
+}
