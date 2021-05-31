@@ -24,3 +24,18 @@ a {
     position: fixed;
     width: 100vw;
 }
+
+.logo-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    align-self: center;
+}
