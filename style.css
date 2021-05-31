@@ -243,3 +243,28 @@ a {
     font-size: 25px;
     margin-top: 40px;
 }
+@media only screen and (max-width: 600px) {
+    .intro {
+        background-image: url(baggrund-mobile.png);
+    }
+    .velkommen {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .velkommen-intro {
+        width: 75vw;
+        margin-top: 35px;
+
+    }
+    .velkommen-intro h2 {
+        font-size: 30px;
+    }
+    .velkommen-intro h3 {
+        font-size: 25px;
+    }
+    .velkommen-video {
+        width: 80vw;
+
+    }
