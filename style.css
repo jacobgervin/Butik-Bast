@@ -88,3 +88,30 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+#ombast {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ombast h2 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.ombast-separator {
+    width: 300px;
+    border-top: solid 2px var(--sort);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#ombast p {
+    width: 75vw;
+    text-align: center;
+    font-size: 25px;
+}
+#more {
+    display: none;
+}
