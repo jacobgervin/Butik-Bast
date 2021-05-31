@@ -156,3 +156,15 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
+#lokation h2 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.lokationen {
+    width: 50vw;
+}
+.lokationen iframe {
+    margin-left: 8vw;
+}
