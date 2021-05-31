@@ -168,3 +168,21 @@ a {
 .lokationen iframe {
     margin-left: 8vw;
 }
+
+#mobilemap {
+    display: none;
+}
+
+.abningstider {
+    width: 50vw;
+    margin-left: 30px;
+}
+.abningstider-separator {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: solid 2px var(--sort);
+    width: 40px;
+}
+.abningstider p {
+    font-size: 25px;
+}
