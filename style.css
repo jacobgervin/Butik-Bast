@@ -25,6 +25,12 @@ a {
     width: 100vw;
 }
 
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
 .logo-top {
     margin-top: 10px;
     margin-bottom: 10px;
