@@ -52,3 +52,11 @@ a {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.intro {
+    height: 100vh;
+    background-image: url(baggrund.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
