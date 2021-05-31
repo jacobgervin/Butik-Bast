@@ -268,3 +268,159 @@ a {
         width: 80vw;
 
     }
+    #tagbastmedhjem {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: var(--sand);
+    }
+    
+    #tagbastmedhjem h2 {
+        margin-top: 20px;
+        font-size: 30px;
+        padding-bottom: 20px;
+
+    }
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .bastmedhjem-tekst {
+        width: 90vw;
+    }
+    .bastmedhjem-tekst p {
+        margin-left: 8vw;
+        margin-right: 5vw;
+        font-size: 20px;
+    }
+    .bastmedhjem-billede {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+    }
+    /*Victor*/
+    /*Jacob*/
+    .bastmedhjem-billede img {
+        width: 60%;
+        margin-top: 5px;
+        align-self: flex-start;
+        margin-left: 8vw;
+    }
+
+    #lokation {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #lokation h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    .lokationen {
+        width: 90vw;
+    }
+    .lokationen iframe {
+        margin-left: 2vw;
+    }
+
+    #mobilemap {
+        display: block;
+    }
+
+    #webmap { 
+        display: none;
+    }
+    
+    .abningstider {
+        width: 90vw;
+        margin-left: 10px;
+    }
+    .abningstider-separator {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top: solid 2px var(--sort);
+        width: 40px;
+    }
+    .abningstider p {
+        font-size: 25px;
+    }
+    #instagram {
+        height: 110vh;
+        background-color: var(--sand);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    #instagram h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .instagram-posts {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .instagram-posts iframe {
+        width: 60%;
+        height: 40%;
+    }
+    .bottom {
+        height: 55vh;
+        background-color: var(--sort);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        color: var(--hvid);
+    }
+    
+    .bottom hr {
+        width: 200px;
+        border-bottom: solid 2px var(--hvid);
+        border-right: none;
+        border-top: none;
+        margin-top: 20px;
+        height: 0px;
+    }
+    .bottom-overskrift {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items:center ;
+    }
+    
+    .bottom-overskrift h2 {
+        font-size: 100px;
+        margin-top: 40px;
+    }
+    .bottom-kontakt {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items:center ;
+    }
+    .bottom-kontakt p {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .flex-row {
+        align-items: center;
+        align-content: center;
+    }
+}
