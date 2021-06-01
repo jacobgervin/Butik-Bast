@@ -171,6 +171,11 @@ a:hover {
 .bastmedhjem-billede img {
     width: 55%;
 }
+
+#myBtn {
+    margin-top: 10px;
+
+}
 #lokation {
     height: 100vh;
     display: flex;
