@@ -18,3 +18,10 @@ function myFunction() {
     var header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0);
 });
+
+function navigation() {
+    if (mobilenavigation.style.display ==="none") {
+        mobilenavigation.style.display = "block" 
+    } else { (mobilenavigation.style.display ="none")
+    }
+}

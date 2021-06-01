@@ -67,6 +67,10 @@ a:hover {
 
 }
 
+#mobilenavigation ul { 
+    display: none;
+}
+
 .separator {
     border-right: 2px solid var(--black);
     height: 15px;
@@ -456,4 +460,67 @@ a:hover {
         align-items: center;
         align-content: center;
     }
+    .navbar {
+        display: none;
+    }
+    #header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #mobilenavigation {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        background-color: var(--sand);
+        z-index: 10;
+        animation-duration: 1s;
+        animation-name: loading;
+        display: none;
+        position: fixed;
+    }
+
+    @keyframes loading {
+        0%  {background-color: rgba(95, 158, 160, 0);}
+        100% {background-color: var(--sand);}
+    }
+
+    #mobilenavigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+        font-size: 30px;
+    }
+
+    #mobilenavigation ul li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #mobilenav-button {
+        right: 0;
+        display: block;
+        z-index: 1001;
+        margin-right: 20px;
+    
+    }
+
+    .logo-top {
+        margin-left: 20px;
+        z-index: 200;
+    }
+    
+    .line {
+        display: block;
+        width: 40px;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--sort);
+        transition: .3s;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        z-index: 1000;
+    }
+    
 }
