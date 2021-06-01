@@ -31,17 +31,17 @@ a:hover {
 }
 
 #header-top.sticky {
-    background: #fff;
+    background: var(--sand);
     padding: 10px 0px 10px 0px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 #header.sticky .logo-top{
-    color: #111;
+    color: var(--hvid);
 }
 
 #header.sticky ul li a {
-    color: #111;
+    color: var(--hvid);
 }
 
 .logo-top {
