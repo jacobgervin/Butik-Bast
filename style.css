@@ -176,7 +176,9 @@ a:hover {
     margin-top: 10px;
     width: 75px;
     height: 25px;
-
+    border-radius: 10px;
+    color: var(--hvid);
+    background-color: var(--sort);
 }
 #lokation {
     height: 100vh;
