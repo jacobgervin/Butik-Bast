@@ -421,6 +421,7 @@ iframe {
     .instagram-posts iframe {
         width: 60%;
         height: 60%;
+        margin-top: 5px;
     }
     .bottom {
         height: 55vh;
